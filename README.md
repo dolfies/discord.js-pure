@@ -9,7 +9,7 @@ Credit to [Dolfies](https://github.com/dolfies) for Discord API and core Discord
 Join my [Discord](https://dsc.gg/unwelcome)!
 
 ## Usage
-##### NOTE: Check the [Documentation](https://github.com/13-05/discord.js-pure/wiki) for a more detailed walkthrough of this lib's usage!
+##### ~~NOTE: Check the [Documentation](https://github.com/13-05/discord.js-pure/wiki) for a more detailed walkthrough of this lib's usage!~~ So, uh, docs are mostly a WIP rn after the past few overhauls and the ones to come. Just... read the [examples](https://github.com/13-05/discord.js-pure/tree/main/examples/console-scripts).
 ### Run It In the Console
 If you're like most people, you don't want to download anything. Well, you're in luck! Follow the below steps to get this working in the inspect element JavaScript console of most browsers:
 1) Go onto [Discord](https://discord.com/app) in your web browser
