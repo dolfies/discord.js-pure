@@ -1,5 +1,3 @@
-## ⚠ This project has been archived! The [nightly branch](https://github.com/13-05/discord.js-pure/tree/nightly) is the most complete version of this library, so in any case that should be used and referenced, though nightly won't be merged with main as it doesn't fix every issue I hoped to.
-
 # Discord.JS-Pure
 An asynchronous Discord API wrapper for selfbots, written in pure javascript! ~~One of the only of its kind ;)~~
 
