@@ -1,4 +1,6 @@
-# DISCORD.JS-PURE
+## ⚠ This project has been archived! The [nightly branch](https://github.com/13-05/discord.js-pure/tree/nightly) is the most complete version of this library, so in any case that should be used and referenced, though nightly won't be merged with main as it doesn't fix every issue I hoped to.
+
+# Discord.JS-Pure
 An asynchronous Discord API wrapper for selfbots, written in pure javascript! ~~One of the only of its kind ;)~~
 
 Special thanks to [L](https://github.com/L5050) and [Harry Tom](https://stackoverflow.com/users/14836368/harry-tom)!
@@ -31,7 +33,7 @@ client.on("ready", function(d) {
 client.on("message_create", async function(d) {
     let message = d.message;
     if (message.content == "ping") {
-        await client.sendMessage(message.channel_id, "Pong");
+        await client.sendMessage(message.channel_id, "Pong!");
     }
 });
 
@@ -39,16 +41,3 @@ client.connect();
 ```
 
 6) Say `ping` in any channel in Discord, and it should respond with `Pong`! If it does, then you did everything right; the library's working! Now, you can get to making your own scripts ;)
-
-### Run It Automatically
-Alright, so this method will automatically boot the selfbot every time you load up [Discord](https://discord.com/app) in your browser. Although, there's one catch: you need an extension. So, if you don't mind using an extension, you're good to go! Just follow the steps below:
-1) Get [ViolentMonkey](https://violentmonkey.github.io/) for your browser
-2) Navigate to the settings page by clicking the gear icon after clicking the logo
-3) Press the `+` symbol at the top left, and then click `New`
-4) Paste an [example](https://github.com/13-05/discord.js-pure/tree/main/examples/userscripts) and then save the script
-5) Open/reload [Discord](https://discord.com/app) in your browser
-6) If you open the console, you should see messages from the library that look similar to the below:
-
-![image](https://user-images.githubusercontent.com/64506392/158729759-e62f079b-ed43-4d8a-966e-9829da85ed39.png)
-
-7) If you see that, you're good to go! Happy scripting ;)
